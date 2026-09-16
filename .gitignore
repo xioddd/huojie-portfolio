@@ -1,0 +1,10 @@
+node_modules/
+android/**/build/
+android/.gradle/
+*.apk
+*.zip
+*.log
+dist/
+build/
+.DS_Store
+Thumbs.db
