@@ -1,0 +1,180 @@
+/* 活结 · 文案与图片占位元数据 */
+window.HJ = window.HJ || {};
+
+HJ.IMAGES = {
+  /* 序章 */
+  origin_flood: "序章/节日介绍-过绳节起源复原图（黑白）：洪水中镇民以长绳渡水、递送物资，无人绑手腕",
+  liang_shouyi_2016: "序章/2016新闻配图（横向3:2）：梁守义站宗祠门前半身，深色中式上衣，手握暗红木珠串",
+  li_chunsheng_2014: "序章/2014新闻配图：李春生与父亲李老伯门前或院落回访照，父子腕间可有旧红绳，默默坚守二十年",
+  shou_sheng_family: "序章/2012新闻配图：梁永安站家门前，旁有坐椅妹妹与母亲，男子腕上褪色红绳",
+  chen_sisters_2015: "序章/2015新闻配图：陈向阳与妹妹陈小芽门前合影（模范姐妹；腕间红绳可见）",
+  group_2009_thumb: "序章/2009合影缩略图：宗祠前旧合影，梁绫坐轮椅（细节不清）",
+  ritual_cropped: "序章/05伴命仪式合影（裁切版）：梁绫坐轮椅，腕上红绳延伸至右缘被裁断——梁穗寄来的线索照",
+  ritual_cropped_back: "序章/05背面：手写「今年轮到你解结。」",
+  ritual_full: "序章/06伴命仪式合影（未裁切原图·正常版）：右侧年轻梁穗完整入镜，红绳两端系姐妹手腕，面部正常",
+  ritual_full_horror: "序章/06伴命仪式合影（未裁切·恐怖版）：同构图，梁绫面部诡异扭曲",
+  qianshengniang: "序章/牵绳娘插图：雨夜河边空轮椅，湿衣女子背对画面坐水边握红绳",
+  ling_rope_craft: "序章/梁绫绳编教学：轮椅上的梁绫指导镇上小朋友用红绳编织小工艺品",
+  sui_math_2008: "序章/2008新闻：县高中数学竞赛颁奖，少年梁穗上台领奖（半身或颁奖台合影）",
+  /* 第一章 */
+  hekui_id: "第一章/阿葵证件照",
+  hekui_promo: "第一章/荣誉介绍半身照（紧裁）：阿葵在校门口微笑，只见面部与上半身",
+  hekui_full_admit: "第一章/学校原图完整版：阿葵手持岭南工业大学录取通知书，旁有行李箱",
+  app_back_draw1: "第一章/申请表背面画1：姐弟腕被红绳绑住，姐姐背书包被拉住，两人哭泣",
+  app_back_draw2: "第一章/申请表背面画2：姐姐坐上车，弟弟路边挥手微笑（侧脸/背影朝姐姐），松松红线未绑腕",
+  app_back_draw2_look: "第一章/申请表背面画2·异变：同构图，弟弟改为正脸直视玩家",
+  rope_eye: "第一章/红线眼睛：横梭形红线眼，可带绳尾坠饰",
+  rope_eye_qiansheng: "序章/牵绳娘页浮现眼睛：眼睛透明修改2",
+  /* 第二章 */
+  room_panorama: "第二章/姐姐房间全景：可见书桌、墙上旧日历、轮椅旁红色铁盒三处热区",
+  admit_pieces: "第二章/（旧）录取通知书四块碎片——已改为牛皮纸袋，见 admit_envelope",
+  admit_envelope: "第二章/书桌抽屉内牛皮纸袋：封口浆糊粘住、边角发黄，内藏录取通知书复印件",
+  admit_front: "第二章/录取通知书复印件正面：岭南科技大学，录取人梁穗，工业设计，报到2009.8.25",
+  ling_diary_0715: "第二章/梁绫日记2009.7.13手写全文页",
+  calendar_0715: "第二章/2009年旧日历七月十五：红笔圈日期、锁简笔画、20:00固命礼、21:30末班车",
+  bus_ticket: "第二章/长途汽车票正面：2009.7.15 21:30 旧染坊后门→广州/大学城（无背面字）",
+  scissors: "第二章/剪刀：刀柄缠发黑红绳",
+  sisters_photo: "第二章/姐妹梁家门前合影：梁绫轮椅，梁穗站身后",
+  sisters_photo_back: "第二章/合影背面字迹：我需要的是一条能让我自己出门的路……不是妹妹或者是别人的一辈子",
+  member_card_ling: "第二章/成员资料卡头像：暂用 A3 梁绫红线眼睛，1:1 显示",
+  avatar_sui: "聊天头像/梁穗",
+  avatar_player: "聊天头像/玩家",
+  avatar_ling: "聊天头像/梁绫·异变：红线眼睛符号（恐怖效果，非真人脸）",
+  avatar_ling_epilogue: "尾声/绫娘手机头像：小幽灵微笑",
+  photo_2147: "第二章/2009过绳节_21时47分.jpg：宗祠灯笼，右下轮椅女子背对朝旧染坊",
+  dyehouse_side_2009: "第二章/姐姐当晚侧门照：与2016侧门同门另一视角，2009夜景更旧、空绳槽",
+  /* 第三章 */
+  dyehouse_side: "第三章/原料堆放区侧门·2016梁穗重访：灰尘落叶，空绳槽（对照 dyehouse_side_2009）",
+  plan_compare: "第三章/2009↔2016平面对比图（单张）：两边皆有原料堆放区侧门；原料区内朝一号染池的墙——2009为三号检修门，2016为废料储藏墙（木板封死）",
+  plan_2009: "（已并入 plan_compare）",
+  plan_2016: "（已并入 plan_compare）",
+  wall_ring: "第三章/进侧门后·废料储藏墙近照：后钉木板、铁环、发黑红绳钻入板缝，绳槽通到墙根",
+  pool3_door: "第三章/拆板后·三号染池铁门（牌：非工作人员禁止进入）+旁倒锈文件箱",
+  roster: "第三章/牵命人名册内页（含梁绫/梁穗及「辍学未婚留乡」等批注）",
+  care_plan: "第三章/接绳方案试行稿：建养老互助中心＋卫生服务中心，设专业看护岗位，向县申请回乡人才基金",
+  envelope: "第三章/未寄出信封：收件人县民政办公室，日期2009.7.16",
+  dye_pool_dark: "第三章/三号染池暗照：深染池+倒塌木架（惊吓后回到）",
+  dye_pool_lv1: "第三章/染池曝光1：木架下出现发黑红绳",
+  dye_pool_lv2: "第三章/染池曝光2：手从水面伸出（银镯）",
+  dye_pool_lv3: "第三章/染池陡变：手扣住池沿",
+  dye_pool_hand_out: "（旧破框方案，现行并入31–34+红字）",
+  riverside_fake: "第三章/河边_2009年7月16日.jpg：约05:40，空轮椅+剪断红绳，右下梁守义木珠手",
+  /* 第四章 */
+  burned_note: "第四章/烧毁的留言.jpg：残纸「不要怪阿穗…」「绫」",
+  ritual_scene: "第四章/宗祠固命礼现场：木台、何葵与何童腕连红绳、未签固命书、梁守义戴木珠",
+  flood_1: "第四章/分镜1：河水倒灌石板巷，红灯笼木桶纸牌冲向宗祠",
+  flood_2: "第四章/分镜2：宗祠前路淹没，姐弟困高台，人群在巷道高处",
+  flood_3: "第四章/分镜3：水淹高台下，木门冲开，石阶裂缝，有人被急流推回",
+  street_flood: "第四章/梁穗冒雨跑回梁家：半淹石板巷中的奔跑剪影（不露正脸）",
+  tree_rope: "第四章/梁穗回梁家分镜2：梁家门前古树缠褪色长红绳",
+  hesuqin_grab: "第四章/回忆杀1·课本水彩：暴雨中何素琴抓住梁穗持剪刀的手，神情恐惧坚决",
+  pupil_sisters: "第四章/回忆杀2·课本水彩：何素琴瞳孔特写，虹膜倒影=姐妹互相扶持（暖色）",
+  pupil_evidence: "第四章/回忆杀3·课本水彩：同一瞳孔，倒影=烧毁留言与公开证据屏幕（冷色）",
+  hesuqin_tear: "第四章/回忆杀4·课本水彩：何素琴闭眼落泪，手指将松开",
+  hesuqin_release: "第四章/回忆杀5·课本水彩：何素琴松开手，允许女儿剪绳",
+  rope_path_long: "第四章/重新接绳：邻居各出红绳编成一股，活结系上梁家古树",
+  rescue_1: "第四章/救援1：众人抓合股红绳涉入洪水",
+  rescue_2: "第四章/救援2：渡水中可见竹背篮、毛巾与纱布",
+  rescue_3: "第四章/救援3：越过湍流，合力把姐弟从高台接下",
+  /* 尾声 */
+  hekui_station: "尾声/何葵登车赴大学：乡亲送别，何童挥手，腕上无绳",
+  sisters_final: "尾声/解结纸条：这次轮到你解结；结已经解开了；谢谢你，阿穗；也谢谢你，陌生人。",
+  epilogue_mall: "尾声/商场中景：日常逛街，一侧可见「中国福利彩票·刮刮乐」店铺招牌",
+  epilogue_mutual_center: "尾声/绛水镇养老互助中心外景或内景",
+  epilogue_health_center: "尾声/绛水镇卫生服务中心外景或内景",
+  sequel_teaser: "系列钩子/陌生地点现场照（第二部预告，待配图）",
+  live_knot_avatar: "尾声/梁绫头像变化：发黑死结 → 松开的活结 → 姐妹合影"
+};
+
+/** 已接线真实图片：key → assets/img 相对路径（有则显示图，无则占位） */
+HJ.ASSETS = {
+  origin_flood: "assets/img/origin_flood.jpg",
+  liang_shouyi_2016: "assets/img/liang_shouyi_2016.jpg",
+  li_chunsheng_2014: "assets/img/li_chunsheng_2014.jpg",
+  shou_sheng_family: "assets/img/shou_sheng_family.jpg",
+  chen_sisters_2015: "assets/img/chen_sisters_2015.jpg",
+  group_2009_thumb: "assets/img/group_2009_thumb.jpg",
+  ritual_cropped: "assets/img/ritual_cropped.jpg",
+  ritual_cropped_back: "assets/img/ritual_cropped_back.jpg",
+  ritual_full: "assets/img/ritual_full.jpg",
+  ritual_full_horror: "assets/img/ritual_full_horror.jpg",
+  qianshengniang: "assets/img/qianshengniang.jpg",
+  hekui_id: "assets/img/hekui_id.jpg",
+  hekui_promo: "assets/img/hekui_promo.jpg",
+  hekui_full_admit: "assets/img/hekui_full_admit.jpg",
+  ling_rope_craft: "assets/img/ling_rope_craft.jpg",
+  app_back_draw1: "assets/img/app_back_draw1.jpg",
+  app_back_draw2: "assets/img/app_back_draw2.jpg",
+  app_back_draw2_look: "assets/img/app_back_draw2_look.jpg",
+  rope_eye: "assets/img/rope_eye.png",
+  rope_eye_qiansheng: "assets/img/rope_eye_qiansheng.png",
+  sui_math_2008: "assets/img/sui_math_2008.jpg",
+  room_panorama: "assets/img/room_panorama.jpg",
+  calendar_0715: "assets/img/calendar_0715.jpg",
+  admit_envelope: "assets/img/admit_envelope.jpg",
+  admit_front: "assets/img/admit_front.jpg",
+  ling_diary_0715: "assets/img/ling_diary_0715.jpg",
+  bus_ticket: "assets/img/bus_ticket.jpg",
+  scissors: "assets/img/scissors.jpg",
+  sisters_photo: "assets/img/sisters_photo.jpg",
+  sisters_photo_back: "assets/img/sisters_photo_back.jpg",
+  avatar_sui: "assets/img/avatar_sui.jpg",
+  avatar_player: "assets/img/avatar_player.jpg",
+  avatar_ling: "assets/img/avatar_ling.jpg",
+  avatar_ling_epilogue: "assets/img/avatar_ling_epilogue.jpg",
+  member_card_ling: "assets/img/member_card_ling.jpg",
+  photo_2147: "assets/img/photo_2147.jpg",
+  dyehouse_side_2009: "assets/img/dyehouse_side_2009.jpg",
+  dyehouse_side: "assets/img/dyehouse_side.jpg",
+  plan_compare: "assets/img/plan_compare.jpg",
+  wall_ring: "assets/img/wall_ring.jpg",
+  pool3_door: "assets/img/pool3_door.jpg",
+  roster: "assets/img/roster.jpg",
+  care_plan: "assets/img/care_plan.jpg",
+  envelope: "assets/img/envelope.jpg",
+  dye_pool_dark: "assets/img/dye_pool_dark.jpg",
+  dye_pool_lv1: "assets/img/dye_pool_lv1.jpg",
+  dye_pool_lv2: "assets/img/dye_pool_lv2.jpg",
+  dye_pool_lv3: "assets/img/dye_pool_lv3.jpg",
+  riverside_fake: "assets/img/riverside_fake.jpg",
+  burned_note: "assets/img/burned_note.jpg",
+  ritual_scene: "assets/img/ritual_scene.jpg",
+  flood_1: "assets/img/flood_1.jpg",
+  flood_2: "assets/img/flood_2.jpg",
+  flood_3: "assets/img/flood_3.jpg",
+  street_flood: "assets/img/street_flood.jpg",
+  tree_rope: "assets/img/tree_rope.jpg",
+  hesuqin_grab: "assets/img/hesuqin_grab.jpg",
+  pupil_sisters: "assets/img/pupil_sisters.jpg",
+  pupil_evidence: "assets/img/pupil_evidence.jpg",
+  hesuqin_tear: "assets/img/hesuqin_tear.jpg",
+  hesuqin_release: "assets/img/hesuqin_release.jpg",
+  rope_path_long: "assets/img/rope_path_long.jpg",
+  rescue_1: "assets/img/rescue_1.jpg",
+  rescue_2: "assets/img/rescue_2.jpg",
+  rescue_3: "assets/img/rescue_3.jpg",
+  hekui_station: "assets/img/hekui_station.jpg",
+  epilogue_mutual_center: "assets/img/epilogue_mutual_center.jpg",
+  epilogue_health_center: "assets/img/epilogue_health_center.jpg",
+  sisters_final: "assets/img/sisters_final.jpg",
+  epilogue_mall: "assets/img/epilogue_mall.jpg",
+};
+
+HJ.ph = (key, extraClass = "") => {
+  const src = HJ.ASSETS[key];
+  const label = HJ.IMAGES[key] || key;
+  if (src) {
+    return `<div class="img-ph has-img ${extraClass}" data-img="${key}"><img src="${src}" alt="${label}" draggable="false"></div>`;
+  }
+  return `<div class="img-ph ${extraClass}" data-img="${key}"><span class="ph-label">［待配图］<br>${label}</span></div>`;
+};
+
+/** 文件夹缩略图：短标题，避免长文案撑破布局 */
+HJ.phIcon = (key, shortLabel) => {
+  const src = HJ.ASSETS[key];
+  const text = shortLabel || key;
+  if (src) {
+    return `<div class="file-icon has-img" data-img="${key}"><img src="${src}" alt="${text}" draggable="false"></div>`;
+  }
+  return `<div class="file-icon" data-img="${key}"><span>${text}</span></div>`;
+};
