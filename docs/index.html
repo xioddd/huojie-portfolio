@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>《活结》个人独立恐怖游戏作品集</title>
+  <meta name="description" content="《活结》是一款以粤西虚构古镇、过绳节旧礼俗与桌面调查为核心体验的个人独立民俗恐怖解谜游戏作品。" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a href="#top" class="brand">《活结》作品集</a>
+    <nav class="top-nav" aria-label="页面导航">
+      <a href="#overview">概述</a>
+      <a href="#chapters">章节</a>
+      <a href="#craft">制作能力</a>
+      <a href="play/">试玩</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <img src="assets/img/ritual_full_horror.jpg" alt="雨夜宗祠与水面中的轮椅" class="hero-bg" />
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <p class="eyebrow">个人独立网页恐怖解谜游戏</p>
+        <h1 id="hero-title">活结</h1>
+        <p class="hero-lead">玩家以远程协助者的身份，进入绛水镇“过绳节”民俗馆网页、即时通讯、调查资料与工业档案，在碎片证据中拆开一段被官方叙事掩埋的家族悲剧。</p>
+        <div class="hero-actions">
+          <a class="button primary" href="play/">进入试玩</a>
+          <a class="button secondary" href="#chapters">查看章节设计</a>
+        </div>
+        <ul class="hero-tags" aria-label="作品关键词">
+          <li>民俗恐怖</li>
+          <li>桌面调查</li>
+          <li>网页叙事</li>
+          <li>证据链解谜</li>
+          <li>AI 辅助独立制作</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="overview" class="section intro-section">
+      <div class="section-kicker">Game Overview</div>
+      <div class="intro-grid">
+        <div>
+          <h2>一根红绳绑住旧礼节，也牵出人与人之间的救援。</h2>
+          <p>《活结》围绕虚构古镇绛水镇的“过绳节”展开。玩家跟随好友梁穗调查姐姐梁绫七年前的死亡真相，从民俗馆网页、新闻检索、聊天记录、老照片、工业档案和现场资料中逐步发现：所谓“祝福”的仪式，曾经如何把个体选择改写为必须服从的命运。</p>
+          <p>作品的核心并不是单纯制造惊吓，而是让玩家在解谜过程中看见被旧礼节遮住的人。小葵想读书，弟弟也希望姐姐拥有自己的生活；梁绫曾经试图保护妹妹，梁穗则在何家姐弟身上看见过去的自己。恐怖来自绳结的压迫，温情来自人们终于愿意一起把结解开。</p>
+        </div>
+        <aside class="facts" aria-label="作品信息">
+          <h3>作品信息</h3>
+          <dl>
+            <div><dt>类型</dt><dd>民俗恐怖 / 桌面调查 / 解谜叙事</dd></div>
+            <div><dt>形式</dt><dd>HTML + CSS + JavaScript 网页游戏</dd></div>
+            <div><dt>流程</dt><dd>序章、四个章节、尾声</dd></div>
+            <div><dt>素材</dt><dd>约 50+ 张剧情图片、14 组音乐与音效设计</dd></div>
+            <div><dt>职责</dt><dd>独立完成叙事、交互、视觉、Prompt 与代码落地</dd></div>
+          </dl>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section gallery-section" aria-labelledby="experience-title">
+      <div class="section-kicker">Playable Experience</div>
+      <h2 id="experience-title">以“像真的在调查”作为体验入口</h2>
+      <div class="wide-gallery">
+        <figure>
+          <img src="assets/screens/03-desktop.png" alt="游戏桌面界面，包含民俗馆、工业档案、文件箱、聊天等入口" />
+          <figcaption>桌面式调查入口：把网页、档案、文件夹与聊天整合成玩家可主动探索的界面。</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/screens/05-browser-home.png" alt="绛水镇过绳节民俗馆网页" />
+          <figcaption>民俗馆网页先建立官方叙事，再通过搜索与内部页面逐步暴露叙事缺口。</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/screens/04-chat.png" alt="玩家与梁穗聊天的即时通讯界面" />
+          <figcaption>即时通讯承担情绪推进，让线索验证、角色动机与恐怖事件同步发生。</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="chapters" class="section chapters-section">
+      <div class="section-kicker">Chapter Design</div>
+      <h2>章节梗概与设计重点</h2>
+
+      <article class="chapter split">
+        <div class="chapter-copy">
+          <p class="chapter-label">01 第一章：背景调查与小葵姐弟</p>
+          <h3>从官方民俗叙事进入，再把调查落到“一个人是否拥有选择”。</h3>
+          <p>玩家先通过民俗馆网页、新闻关键词和人物资料认识过绳节：它表面上是祈福、牵系与守护，背后却不断把“留下”包装成正确选择。随后，小葵的毕业照、录取通知书和校门口照片建立她想离开镇子读书的现实处境；弟弟的画则补上更柔软的真相，他并不想拖住姐姐，而是希望姐姐背着书包走向自己的生活。</p>
+          <p>这一章的个人能力展示在于体验引导、图像伏笔和信息节奏：先让玩家理解操作规则，再通过照片背面、红绳、校车与弟弟视线，把“民俗祝福”转译成逐渐成形的压迫感。</p>
+        </div>
+        <div class="image-stack">
+          <img src="assets/screens/06-browser-chat.png" alt="网页搜索与聊天调查界面" />
+          <img src="assets/img/shou_sheng_family.jpg" alt="守绳之家相关报道配图" />
+          <img src="assets/img/liang_shouyi_2016.jpg" alt="过绳节新闻人物报道配图" />
+        </div>
+      </article>
+
+      <article class="chapter split reverse">
+        <div class="chapter-copy">
+          <p class="chapter-label">02 第二章：姐姐的苦心</p>
+          <h3>让玩家在细节中读懂爱，而不是直接听角色解释爱。</h3>
+          <p>第二章把调查推进到梁绫与梁穗的姐妹关系。作品不直接替玩家说明姐姐的动机，而是让玩家从聊天语气、时间细节、照片背面和房间物件中，逐步读出梁绫曾经如何保护妹妹。她的选择不是软弱的服从，而是在旧礼节、家庭压力与现实限制之间，为妹妹争取一条更自由的路。</p>
+          <p>这一章强调人物动机与作品内涵的结合：民俗恐怖不只来自红绳和禁忌，也来自“以爱之名要求牺牲”的结构。玩家越接近姐姐的真实想法，越能理解梁穗为什么必须回到绛水镇，把当年没能说出口的事重新说清。</p>
+        </div>
+        <div class="polaroid-row">
+          <figure><img src="assets/img/bus_ticket.jpg" alt="锁在箱子里的长途车票" /><figcaption>离开的车票</figcaption></figure>
+          <figure><img src="assets/img/admit_front.jpg" alt="锁在箱子里的录取通知书" /><figcaption>录取通知书</figcaption></figure>
+          <figure><img src="assets/img/sisters_photo.jpg" alt="锁在箱子里的姐妹合影" /><figcaption>姐妹合影</figcaption></figure>
+        </div>
+      </article>
+
+      <article class="chapter split">
+        <div class="chapter-copy">
+          <p class="chapter-label">03 第三章：工业遗迹与死亡真相</p>
+          <h3>把传闻拆成可观察、可比对、可验证的证据链。</h3>
+          <p>第三章转入染坊与工业遗迹调查。玩家需要阅读旧厂房登记、设备检查记录、平面图和现场照片，逐步还原梁绫死亡前最后十五分钟：她被困在三号染池附近，出口被堵，水位上升，现场留下的时间、位置与物件互相印证。</p>
+          <p>这一部分展示了证据链设计能力：平面图、老照片、工业档案与聊天记录彼此交叉，让玩家不是被动听到真相，而是通过观察、排序、比对和验证，把“水鬼传闻”还原成一场被掩盖的人祸。</p>
+        </div>
+        <div class="evidence-grid">
+          <img src="assets/img/plan_compare.jpg" alt="染坊平面图对比" />
+          <img src="assets/img/pool3_door.jpg" alt="三号染池门口" />
+          <img src="assets/img/dyehouse_side_2009.jpg" alt="染坊旧址与工业遗迹现场" />
+          <img src="assets/screens/industrial-field.png" alt="现场调查工业遗迹的游戏截图" />
+        </div>
+      </article>
+
+      <article class="chapter split reverse">
+        <div class="chapter-copy">
+          <p class="chapter-label">03 延展：亮度谜题与逐步逼近的恐怖</p>
+          <h3>用“看清照片”的动作，让玩家亲手靠近被压住的真相。</h3>
+          <p>玩家需要调整照片亮度，让原本被黑暗吞掉的现场细节一点点浮现。随着画面变亮，姐姐在水面下的轮廓、水鬼逐渐爬出的视觉压迫、满屏红字诉说的愿望与请求，会把调查从理性取证推向强烈的情绪冲击。</p>
+          <p>这一页突出恐怖节奏与交互叙事：谜题不是单独存在的机关，而是与恐惧、证据和人物愿望同时发生。玩家每推进一步，都更清楚姐姐不是传闻里的“鬼”，而是一个曾经求救、也曾经想活下去的人。</p>
+        </div>
+        <div class="brightness-strip" aria-label="照片逐渐变亮过程">
+          <img src="assets/img/dye_pool_dark.jpg" alt="黑暗中的染池照片" />
+          <img src="assets/img/dye_pool_lv1.jpg" alt="亮度提升后的染池照片一" />
+          <img src="assets/img/dye_pool_lv2.jpg" alt="亮度提升后的染池照片二" />
+          <img src="assets/img/dye_pool_lv3.jpg" alt="最终显现的染池照片" />
+        </div>
+      </article>
+
+      <article class="chapter split">
+        <div class="chapter-copy">
+          <p class="chapter-label">04 第四章：回忆与救援</p>
+          <h3>七年前的悲剧在眼前重演，玩家要推动故事走向另一种结局。</h3>
+          <p>第四章让梁穗看见何家姐弟身上的相似命运：七年前，梁家姐妹因为旧礼节而阴阳两隔；如今，小葵与弟弟也被同样的逻辑推向牺牲。弟弟支持姐姐求学，即使患有癫痫，也想成为能够独立生活的人；小葵关心的不只是自己能不能离开，也希望镇上建立更完善的救助与帮扶规则。</p>
+          <p>梁穗在他们身上看见曾经的姐姐与自己。她想完成梁绫没有完成的愿望，救下这对姐弟，也让绛水镇从“必须服从旧礼节”的循环中被拉出来。</p>
+        </div>
+        <div class="memory-panel">
+          <img src="assets/screens/watercolor-memory.png" alt="水彩风格回忆杀画面" />
+          <p>水彩风格的回忆画面弱化现实边界，让何素琴的回忆变得朦胧、柔软，也更像一次迟来的理解：她终于意识到，旧礼节伤害的从来不是某一个人，而是一代又一代没有被允许选择的人。</p>
+        </div>
+      </article>
+
+      <article class="chapter split reverse">
+        <div class="chapter-copy">
+          <p class="chapter-label">04 延展：合绳救援</p>
+          <h3>真正值得留下的不是束缚人的仪式，而是人们愿意互相帮助的情感。</h3>
+          <p>终章救援把“红绳”的意义重新翻转。前半段里，绳代表束缚、规训和被迫留下；到了合绳救援，村民们把各自手中的绳交出来，不再用它困住谁，而是用它救人。这个设计让作品从民俗恐怖走向人文表达：改变不是来自某个角色单独成为英雄，而是来自更多普通人愿意伸手。</p>
+          <p>这一章展示群像叙事、情绪高潮与主题回收能力。玩家完成的不只是一个谜题，而是见证一套旧叙事被新的行动替代。</p>
+        </div>
+        <div class="rescue-triptych">
+          <img src="assets/img/rescue_1.jpg" alt="村民准备合绳救援" />
+          <img src="assets/img/rescue_2.jpg" alt="多人合力救援" />
+          <img src="assets/img/rescue_3.jpg" alt="暴雨中的救援场面" />
+        </div>
+      </article>
+
+      <article class="chapter split epilogue">
+        <div class="chapter-copy">
+          <p class="chapter-label">05 尾声：余波与系列彩蛋</p>
+          <h3>结已经解开，但真正的改变才刚刚开始。</h3>
+          <p>尾声通过民生新闻、救助制度更新、人物去向与和绫娘的对话，交代绛水镇在事件后的改变。最后的对话既是对本作主题的总结，也暗含下一个系列游戏的引入：梁绫留下的不只是一次真相揭露，更像一条通向更大世界的线索。</p>
+          <p>在这一刻，民俗恐怖从“未知的禁忌”转变为“被重新理解的记忆”。玩家离开页面时，带走的不是单纯的惊吓，而是关于选择、亲情、救援与共同体责任的余味。</p>
+        </div>
+        <div class="epilogue-board">
+          <img src="assets/screens/epilogue-letter.png" alt="尾声中梁绫留下的信" />
+          <img src="assets/img/epilogue_mutual_center.jpg" alt="互助中心新闻" />
+          <div class="chat-note">
+            <img src="assets/img/avatar_ling_epilogue.jpg" alt="绫娘头像" />
+            <p>“这次轮到你解结。”这句尾声回响既完成本作闭环，也把玩家引向下一段关于旧物、记忆与地方传说的调查。</p>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section id="craft" class="section craft-section">
+      <div class="section-kicker">Production Ability</div>
+      <h2>从文案、审美到 Vibe Coding：独立形成完整作品</h2>
+      <div class="craft-grid">
+        <article>
+          <h3>叙事与文案</h3>
+          <p>独立完成世界观、章节结构、人物关系、聊天文本、档案信息与线索提示，把“旧礼节的桎梏”转化为可互动、可推理、可共情的游戏体验。</p>
+        </article>
+        <article>
+          <h3>视觉审美与图片 Prompt</h3>
+          <p>使用即梦 AI、ChatGPT 图像生成等工具制作剧情图、旧照片、档案图与恐怖场景，并通过 Prompt 迭代控制画面情绪、年代质感和叙事信息密度。</p>
+        </article>
+        <article>
+          <h3>音乐与声音设计</h3>
+          <p>撰写音乐 Prompt 与音效逻辑，围绕民俗馆、调查、恐怖高潮、回忆与尾声分别建立声音氛围，让音频服务章节节奏而不是单纯铺底。</p>
+        </article>
+        <article>
+          <h3>代码落地与 AI 协作</h3>
+          <p>结合 Cursor、Codex 与 ChatGPT 进行前端实现、问题排查、交互迭代和作品集整理，完成可游玩的网页游戏、PPT 作品集与 HTML 展示页。</p>
+        </article>
+      </div>
+
+      <div class="tool-strip" aria-label="制作工具截图">
+        <img src="assets/img/tool-jimeng.png" alt="即梦 AI 工具界面" />
+        <img src="assets/img/tool-cursor.png" alt="Cursor 工具界面" />
+        <img src="assets/img/tool-chatgpt-image.png" alt="ChatGPT 图片生成界面" />
+      </div>
+    </section>
+
+    <section class="section closing-section">
+      <div>
+        <div class="section-kicker">For Interview</div>
+        <h2>我希望面试官看到的，不只是一款小游戏，而是一套完整的独立创作能力。</h2>
+        <p>《活结》展示了我从题材选择、叙事结构、交互节奏、视觉风格、AI 素材生产、音乐 Prompt、前端实现到作品包装的完整闭环能力。它以民俗恐怖为外壳，讨论旧礼节对个体选择的束缚，也保留了家人之间互相成全、村民之间彼此救援的人文温度。</p>
+      </div>
+      <a class="button primary large" href="play/">试玩《活结》</a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span>《活结》个人独立作品集</span>
+    <a href="#top">回到顶部</a>
+  </footer>
+</body>
+</html>
